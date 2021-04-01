@@ -1,0 +1,93 @@
+.navbar-nav > li {
+    position: relative;
+}
+.navbar-light .navbar-nav .active a::after {
+    border-bottom: 4px solid #2288b4;
+    bottom: 10px;
+    content: " ";
+    left: 40px;
+    position: absolute;
+    right: 0;
+}
+
+nav .navbar-nav li a{
+    color: #2288b4 !important;
+}
+
+#intro{
+    color: #ea466d;
+    font-size: 25px;
+}
+
+#onnelik{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    #intro{
+        color: #ea466d;
+        font-size: 40px;
+    }
+    #onnelik{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+}
+
+
+
+#keraamika{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#andmed{
+    color: #2288b4;
+    padding-right: 70px;
+}
+
+#sotsiaal a{
+    padding: 0 20px;
+}
+
+#mina{
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#minust{
+    padding-bottom: 60px;
+}
+
+#minust h2{
+    color: #ea466d;
+}
+
+#vorm h2{
+    color: #ea466d;
+    padding-bottom: 40px;
+}
+
+#vorm div div input{
+    border-color: orange;
+}
+
+#nupp{
+    background-color: #ea466d;
+    border-radius: 20px;
+}
+
+#sotsiaal a img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
